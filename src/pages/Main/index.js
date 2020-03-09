@@ -4,7 +4,6 @@ import Header from '../../components/Header';
 import Menu from '../../components/Menu';
 import Body from '../../components/Body';
 import Footer from '../../components/Footer';
-//import { Container } from './styles';
 
 let backgroundColor = '#000000'
 const Container = styled.div`
@@ -15,7 +14,6 @@ background:#efefef
  flex-direction: column;
  align-items: center;
 `;
-
 
 export default function Main() {
   const [theme,setTheme] = useState(true);
@@ -28,7 +26,12 @@ export default function Main() {
   useEffect(()=>{
    theme==true?document.querySelector('body').style.backgroundColor ="#efefef":(
    document.querySelector('body').style.backgroundColor = "#000000"
+   
    )
+   theme==true?document.querySelector('body').style.backgroundColor ="#efefef":(
+    document.querySelector('body').style.color = "#008157"
+    )
+ 
 
   },[theme])
   return (

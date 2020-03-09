@@ -14,14 +14,19 @@ export const Container = styled.div`
             ul{
                 display: flex;
                 flex-direction: row;
+                
+                @media only screen and (max-width: 768px) {
+                flex-direction: column;
+                }
 
                 li{
                     padding-right: 30px;
                     @media only screen and (max-width: 768px) {
                         padding-right: 0px;
+                        
                     }
 
-                    .colin{
+                    &.colin{
                         padding-left: 45em;
 
                         @media only screen and (max-width: 768px) {

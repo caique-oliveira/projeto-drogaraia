@@ -7,4 +7,9 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  h1{
+      @media only screen and (max-width: 768px) {
+        font-size: 1.7rem;
+      }
+  }
 `;
