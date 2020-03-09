@@ -28,7 +28,13 @@ export const Grid = styled.div`
     }
     @media only screen and (max-width: 1100px) {
         grid-template-columns: 301px 458px 303px
-    }          
+    }
+    @media only screen and (max-width: 1100px) {
+        grid-template-columns: 246px 230px 250px;
+        grid-template-rows: 31px;
+        display: flex;
+        flex-wrap: wrap;
+    }    
     .img1-footer {
         padding-right: 10px;
     }
