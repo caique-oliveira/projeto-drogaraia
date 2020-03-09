@@ -43,13 +43,11 @@ const Footer = () => {
               <img className="img5-footer" src={Iconbio}  alt="img5-footer"/>
               </div>
               </li>
-              <li>
               <div className="colin has-text-right">
               <div className="column6">
               <img className="img6-footer" src={IconLogoFooter}  alt="img6-footer"/>
               </div>
               </div>
-              </li>
               </ul>
             </div>
           </Container>
