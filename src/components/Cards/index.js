@@ -4,7 +4,7 @@ import desktop from '../../imagens/desktop.png';
 import tablet from '../../imagens/tablet.png';
 import mobile from '../../imagens/mobile.png';
 
-import { Container, CardContainer, Card1, Card2, Card3 } from './styles';
+import { Container, CardContainer} from './styles';
 
 export default function Cards({ toggleTheme }) {
   function myFunction() {

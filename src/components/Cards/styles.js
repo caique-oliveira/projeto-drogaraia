@@ -7,6 +7,9 @@ export const Container = styled.section`
   justify-content: space-between;
   height: 38em;
   flex-wrap: wrap;
+  @media only screen and (max-width: 768px) {
+    height: 108em;
+  }
 `;
 
 export const CardContainer = styled.div`

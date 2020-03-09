@@ -18,7 +18,6 @@ const Footer = () => {
                 <li>
                 <p>RD2017.Todos os direitos reservados</p>
                 </li>
-              
                 <li>
               <div className="column2">
               <img className="img1-footer" src={IconDroagaRaia}  alt="img1-footer"/>
