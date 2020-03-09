@@ -23,7 +23,6 @@ const Footer = () => {
             <img className="img1-footer" src={IconFarmasil}  alt="img3-footer"/>
             <img className="img1-footer" src={IconUnivers}  alt="img4-footer"/>
             <img className="img1-footer" src={Iconbio}  alt="img5-footer"/>
-            <img className="img1-footer" src={IconDroagaRaia}  alt="img6-footer"/>
             </div>
             <div class="item item-3">
             <img className="img6-footer" src={IconLogoFooter}  alt="img6-footer"/>

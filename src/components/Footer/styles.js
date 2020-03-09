@@ -18,6 +18,12 @@ export const Grid = styled.div`
     @media only screen and (max-width: 1230px) {
         grid-template-columns:301px 575px 303px;
     }
+    @media only screen and (max-width: 1200px) {
+        grid-template-columns: 301px 555px 303px;
+    }
+    @media only screen and (max-width: 1185px) {
+        grid-template-columns: 301px 555px 303px;
+    }      
     .img1-footer {
         padding-right: 10px;
     }
@@ -27,11 +33,9 @@ export const Grid = styled.div`
         color: #868686; 
     }
     .item.item-3 {
-        padding-left: 28em;
-        @media only screen and (max-width: 1230px) {
-            padding-left: 23em;
-            
-        }
+        display: flex;
+        flex-direction: row-reverse;
+
         @media only screen and (max-width: 768px) {
             padding: 0;
         }
