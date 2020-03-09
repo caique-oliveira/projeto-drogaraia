@@ -6,6 +6,10 @@ export const Wrapper = styled.div`
   justify-content: center;
   height: 120px;
   border-bottom: 1px solid #999;
+  
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Container = styled.div`

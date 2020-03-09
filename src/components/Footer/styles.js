@@ -1,37 +1,37 @@
 import styled from 'styled-components';
+export const Footercontent = styled.div`
+    margin-top: 2em;
+`
 
 export const Container = styled.div`
-            margin-top: 12em;
-            max-width: 1200px;
-            width: 100%;
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
 
-            .colum1 {
-                display: flex;
-                float: left;
-            }
-            .colum3 {
-                display: flex;
-                float: right;
-            }
             p{
-                font-size: 18px;
+                font-size: 1.4rem;
+                line-height: 40.5px;
+                color: #868686;  
             }
 
             ul{
-                display: flex;       
+                display: flex;
                 flex-direction: row;
-                padding: 0 15em;
 
-                @media only screen and (max-width: 768px) {
-                    flex-direction: row;
-                    padding: 0;
+                li{
+                    padding-right: 30px;
+                    @media only screen and (max-width: 768px) {
+                        padding-right: 0px;
+                    }
+
+                    .colin{
+                        padding-left: 45em;
+
+                        @media only screen and (max-width: 768px) {
+                            padding-right: 0px!important;
+                        }    
+                    }
+                    
                 }
-            }
-
+            }        
+        }
                 
 `;
 

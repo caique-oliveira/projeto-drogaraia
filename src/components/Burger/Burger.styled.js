@@ -4,7 +4,7 @@ export const StyledBurger = styled.button`
   position: absolute;
   top: 5%;
   left: 2rem;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-around;
   width: 2rem;
@@ -14,6 +14,10 @@ export const StyledBurger = styled.button`
   cursor: pointer;
   padding: 0;
   z-index: 10;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+  }
+  
   
   &:focus {
     outline: none;
@@ -22,10 +26,11 @@ export const StyledBurger = styled.button`
   div {
     width: 2rem;
     height: 0.25rem;
-    background: ${({ theme }) => theme.primaryLight};
+    background: #000;
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
+    
   }
 `;

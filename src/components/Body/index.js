@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 import Cards from '../Cards';
 
-export default function Body() {
+export default function Body({ toggleTheme }) {
   return (
     <Container>
       <h1>
@@ -17,7 +17,7 @@ export default function Body() {
       <p>Ja as cores sao:</p>
       <p>#cores aqui</p>
 
-      <Cards />
+      <Cards toggleTheme={toggleTheme} />
     </Container>
   );
 }

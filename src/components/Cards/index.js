@@ -54,7 +54,7 @@ export default function Cards({ toggleTheme }) {
         </div>
       </CardContainer>
 
-      <CardContainer style={{ background: '#fcd992' }}>
+      <CardContainer style={{ background: '#fcd992', height: '32em' }}>
         <section>
           <img src={tablet} alt="" />
           <h2>Site Responsivo Table</h2>
@@ -80,7 +80,7 @@ export default function Cards({ toggleTheme }) {
                   &nbsp;modifique o tema do site para blackfriday ao seu gosto.
                  
                 </p>
-          <button style={{ background: '#9b8cb9' }}>Leia Mais</button>
+          <button style={{ background: '#9b8cb9' }} id='btn3' onClick={toggleTheme}>Leia Mais</button>
         </div>
       </CardContainer>
       <Popup

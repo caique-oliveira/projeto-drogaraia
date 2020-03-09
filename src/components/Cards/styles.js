@@ -16,6 +16,12 @@ export const CardContainer = styled.div`
   align-items: center;
   padding-top: 10px;
   height: 33em;
+  @media only screen and (max-width: 768px) {
+      flex-basis: 100%;
+      height: 0;
+      height: 30em;
+      margin-bottom: 60px;
+  }
   section {
     h2 {
       color: #fff;
@@ -33,6 +39,12 @@ export const CardContainer = styled.div`
     padding: 9px;
     display: flex;
     flex-direction: column;
+    #btn1{
+      margin-top: 1.5em;
+    }
+    #btn3{
+      margin-top: 2.1em;
+    }
 
     p {
       font-size: 1.4rem;

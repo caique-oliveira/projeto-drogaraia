@@ -5,72 +5,58 @@ import IconFarmasil from '../../imagens/farmasil.png';
 import IconUnivers from '../../imagens/univers.png';
 import Iconbio from '../../imagens/4bio.png';
 import IconLogoFooter from '../../imagens/rd-small.png';
-import { Container } from './styles.js';
+import { Container, Footercontent } from './styles.js';
 
-function Footer() {
-  return (
-    <Container>
-    <div className="Footer">
-        <div className="row">
-          <div className="colum1">
-            <p>
-              RD2017.Todos os direitos reservados
-            </p>
-          </div>
+const Footer = () => {
 
-          {/* Column 2 */}
-          <div className="colum2">
-            <ul>
-              <li>
-                <img
-                  className="img1-footer"
-                  src={IconDroagaRaia}
-                  alt="img1-footer"
-                />
-              </li>
-              <li className="li-footer2">
-                <img
-                  className="img2-footer"
-                  src={IconDragasil}
-                  alt="img2-footer"
-                />
+    return (
+      <div className="Myfooter">
+        <Footercontent>
+          <Container>
+            <div className="columns">
+              <ul className="column">
+                <li>
+                <p>RD2017.Todos os direitos reservados</p>
+                </li>
+              
+                <li>
+              <div className="column2">
+              <img className="img1-footer" src={IconDroagaRaia}  alt="img1-footer"/>
+              </div>
               </li>
               <li>
-                <img
-                  className="img3-footer"
-                  src={IconFarmasil}
-                  alt="img3-footer"
-                />
-              </li>
-              <li className="li-footer2">
-                <img
-                  className="img3-footer"
-                  src={IconUnivers}
-                  alt="img4-footer"
-                />
+              <div className="column3">
+              <img className="img1-footer" src={IconDragasil}  alt="img2-footer"/>
+              </div>
               </li>
               <li>
-                <img className="img5-footer" src={Iconbio} alt="img5-footer" />
+              <div className="column3">
+              <img className="img1-footer" src={IconFarmasil}  alt="img3-footer"/>
+              </div>
               </li>
-            </ul>
-          </div>
-
-          {/* Column 3 */}
-          <div className="colum3">
-            <ul>
               <li>
-                <img
-                  className="img5-footer"
-                  src={IconLogoFooter}
-                  alt="img5.1-footer"
-                />
+              <div className="column4">
+              <img className="img1-footer" src={IconUnivers}  alt="img4-footer"/>
+              </div>
               </li>
-            </ul>
-          </div>
-        </div>
-    </div>
-    </Container>
-  );
-}
+              <li>
+              <div className="column5">
+              <img className="img5-footer" src={Iconbio}  alt="img5-footer"/>
+              </div>
+              </li>
+              <li>
+              <div className="colin has-text-right">
+              <div className="column6">
+              <img className="img6-footer" src={IconLogoFooter}  alt="img6-footer"/>
+              </div>
+              </div>
+              </li>
+              </ul>
+            </div>
+          </Container>
+       </Footercontent> 
+       </div>
+    );
+};
 
 export default Footer;
